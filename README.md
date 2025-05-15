@@ -74,8 +74,3 @@ Model, test veri setinde yüksek doğruluk oranı elde etmiştir ve farklı bitk
 - **Görüntü yakalama veya yükleme**: Kullanıcı, bir bitkinin fotoğrafını çekebilir veya mevcut bir görüntüyü yükleyebilir.
 - **Arka Plan Temizleme**: Uygulama, `remove.bg` API'si kullanarak görüntüdeki arka planı temizler.
 - **Hastalık Tespiti**: Temizlenmiş görüntü, hastalık tespiti için Inception-V3 modeline gönderilir. Tahmin edilen hastalık sonucu ekranda gösterilir.
-
-## Teşekkürler
-
-- **Veri Seti**: Bitki hastalıklarının sınıflandırılması için yüksek kaliteli veriler sağlayan [Plant Village Dataset](https://data.mendeley.com/datasets/g7fpgj57wc/2) katkıcılarına teşekkür ederiz.
-- **remove.bg**: Arka plan temizleme için [remove.bg](https://www.remove.bg) servisini kullandık.
